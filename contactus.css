@@ -1,0 +1,19 @@
+#email{
+  color: #CD6600;
+}
+#mapmarker{
+  font-size: 50px;
+}
+#send{
+  background-color: #CD6600;
+  color: white;
+}
+#send:hover{
+  background-color: white;
+  color: #CD6600;
+  border: 1px solid #CD6600;
+}
+#linked{
+  font-size: 50px;
+  margin-top: 10px;
+}

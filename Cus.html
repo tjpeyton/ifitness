@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strength Circuit</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="ifitjs/cus.js"></script>
+  <link href="contactus.css" rel="stylesheet">
+
+  </head>
+
+
+
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top justify-content-end">
+<div class="container-fluid">
+	<a class="navbar-brand" href="../ifitness/index.html"><img src="img/iFitness Logo.PNG"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../ifitness/index.html#whatwedo" data-page="Whatwedo">What We Do</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Cardio.html" data-page="Cardio">Cardio</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Strength Equipment</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Ftraining.html" data-page="Ftraining">Functional Training</a>
+						<a class="dropdown-item" href="Scircuit.html" data-page="Scircuit">Strength Circuit</a>
+					</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Acces.html" data-page="Acces">Accessories</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Portfolio.html" data-page="Portfolio">Our Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Cus.html" data-page="Cus">Contact Us</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<script src="ifitness.js"></script>
+</nav>
+
+<body>
+    <br><br>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12  col-12">
+              <div class="row">
+                  <div class="col-lg-12 col-12 p-0 contact-us">
+                    <h4 class="">CONTACT US</h4><hr>
+                  </div>
+              </div>
+              <div class="row bg-light pt-3 pb-3 mb-4">
+                  <div class="col-lg-12">
+                    <h6>ADDRESS :</h6>
+                  </div>
+                  <div class="col-lg-4 col-4">
+                      6221 Transit Rd.,<br/>
+                      East Amherst NY,<br/>
+                      14051
+                  </div>
+                  <div class="col-lg-4 col-4">
+                  <p class="m-0"><i class="fa fa-phone-square" aria-hidden="true"></i>
+                      +888.579.4398
+                  </p>
+                  <p id="email" class="m-0"><i class="fa fa-envelope" aria-hidden="true"></i>
+                      ifitsales@gmail.com
+                  </p>
+                  </div>
+                  <div class="col-lg-4 col-4 address-icon text-center text-danger">
+                      <i id="mapmarker" class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row bg-light pt-3 pb-3 mb-4">
+                  <div class="col-lg-6 col-12">
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+
+    </div>
+
+</form>
+                  </div>
+                  <div class="col-lg-6 col-12">
+
+
+                    <div id="map" style="height: 440px; width: 540px;"></div>
+
+
+
+
+                      <div class="icons">
+                          <a href="https://www.linkedin.com/in/selinazaccaria/"><i id="linked" class="fa fa-linkedin"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ2Rtg8Sg3WRoqIsmUQB4AxS5AB5_Gyjw&callback=initMap">
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+           <script src="ifitjs/validator.js"></script>
+           <script src="ifitjs/contact.js"></script>
+           <script src="ifitjs/cus.js"></script>
+
+</body>
+</html>
