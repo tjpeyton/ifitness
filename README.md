@@ -2,4 +2,4 @@
 
 About:
 
-A simple website design using bootstrap and and basic javascript functionality.
+A simple website design using bootstrap, Javascript and php to to talk to the mail server.
